@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #0e0e0e;
+  height: 100%;
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav__item {
+  margin-left: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+a:hover {
+  color: #ff3600;
+}
+
+header {
+  margin-top: -55rem;
+}
+
+.section {
+  background-color: #faf9f6;
+  color: #faf9f6;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  width: 75%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  padding: 2.8rem;
+}
+
+img {
+  padding-bottom: 2.5rem;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  padding-bottom: 2.8rem;
+}
+
+p {
+  line-height: 3rem;
+  padding-bottom: 7.5rem;
+}
+
+button {
+  padding: 1.5rem;
+  border-radius: 45px;
+  border: none;
+  cursor: pointer;
+}
+
+#card-1 {
+  background-color: #e38826;
+}
+
+#card-2 {
+  background-color: #006970;
+}
+
+#card-3 {
+  background-color: #004241;
+}
+
+#btn-1 {
+  color: #e38826;
+}
+
+#btn-2 {
+  color: #006970;
+}
+
+#btn-3 {
+  color: #004241;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 1.4rem;
+  }
+
+  .section {
+    width: 90%;
+    height: 90%;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+
+  img {
+    padding-bottom: 2rem;
+  }
+
+  h1 {
+    padding-bottom: 1.5rem;
+  }
+
+  p {
+    line-height: 2.5rem;
+    padding-bottom: 5rem;
+  }
+
+  button {
+    padding: 1.2rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 1.2rem;
+  }
+
+  .section {
+    width: 100%;
+  }
+
+  button {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  body {
+    font-size: 0.9rem;
+  }
+
+  button {
+    padding: 0.9rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  body {
+    font-size: 0.7rem;
+  }
+}
